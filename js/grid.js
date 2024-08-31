@@ -43,7 +43,7 @@ Grid.prototype.randomAvailableCell = function () {
 };
 
 // Find the best position to insert a 2 tile
-Grid.prototype.bestAvailaibleCell = function () {
+Grid.prototype.bestAvailableCell = function () {
   /* The best available cell is selected randomly from
    * a list of indices weighted by the number of 2s adjacent to them
    */
